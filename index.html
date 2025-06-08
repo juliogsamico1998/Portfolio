@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Meu Primeiro Site-Júlio Gusmão Samico</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>MEU PRIMEIRO SITE-JÚLIO GUSMÃO SAMICO</h1></header>
+  <p id="mensagem"></p>
+
+  <script>
+  const agora = new Date().getHours();
+  const mensagem = document.getElementById('mensagem');
+
+  if (agora < 12) {
+    mensagem.textContent = "Bom dia!";
+  } else if (agora < 18) {
+    mensagem.textContent = "Boa tarde!";
+  } else {
+    mensagem.textContent = "Boa noite!";
+  }
+  </script>
+  <nav>
+    <p><a href="julio.html">Perfil do editor</a></p>
+    <p><a href="projeto.html">Projeto “Ecos do Fim”</a></p>
+  </nav>
+  <main>
+   <p>Esse site em HTML, feito como um dos componentes para a obtenção da nota da segunda unidade da disciplina Introdução à Computação do primeiro período
+    da Cesar School, contém, além desta página inicial, uma contendo uma breve descrição do editor e outra com informaçãoes a respeito do que foi produzido por ele na
+    disciplina Projeto 1</p>
+  </main>
+  <footer>© 2025 Júlio Gusmão Samico</footer>
+</body>
+</html>

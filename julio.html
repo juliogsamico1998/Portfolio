@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Meu Primeiro Site-Sobre mim</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>MEU PRIMEIRO SITE-JÚLIO GUSMÃO SAMICO</h1>
+    <button onclick="alternarTema()">Trocar tema</button>
+  </header>
+  <nav>
+    <p><a href="index.html">Voltar ao Início</a></p>
+    <p><a href="projeto.html">Projeto “Ecos do Fim”</a></p>
+  </nav>
+  <img src="julio.png" alt="Júlio Gusmão Samico" id="julio">
+  <main>
+    <article>
+    <h2>Sobre Mim</h2>
+    <p>Nasci em 1998, e concluí a Educação Básica em 2016. Me formei em Direito, pela Universidade de Pernambuco(UPE), 
+      em 2022, e no ano seguinte obtive aprovação no Exame de Ordem da Ordem dos Advogados do Brasil. No entanto, devido à 
+      realidade do mercado de trabalho e as crescentes oportunidades na área de TI, resolvi mudar de área e entrei no curso
+      de Ciência da Computação da Cesar School no ano atual de 2025. Desde então, venho tendo uma experiência bastante
+      positiva, a despeito da brusca mudança de área profissional, e tive um semestre bastante positivo em termos de 
+      adquirir novos conhecimentos e atuação no projeto da disciplina de Projeto 1, que culminou, com muito trabalho em equipe,
+      no jogo de tabuleiro cooperativo "Ecos do Fim".
+    </p>
+    </article>
+  </main>
+  <footer>© 2025 Júlio Gusmão Samico</footer>
+  <script>
+    function alternarTema() {
+      document.body.classList.toggle('escuro');
+    }
+  </script>
+</body>
+</html>

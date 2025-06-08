@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Meu Primeiro Site-Ecos do Fim</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>MEU PRIMEIRO SITE - JÚLIO GUSMÃO SAMICO</h1>
+    <button onclick="alternarTema()">Trocar tema</button>
+  </header>
+  <nav>
+    <p><a href="index.html">Voltar ao Início</a></p>
+    <p><a href="julio.html">Perfil do editor</a></p>
+  </nav>
+  <img src="ecosdofim.png" alt="Ecos do Fim" id="ecos">
+  <main>
+    <h2>Ecos do Fim</h2>
+    <article>
+      <h3>Apresentação</h3>
+      <p>A deficiência auditiva é uma condição que afeta a capacidade de uma pessoa de perceber e processar sons,
+      variando em grau e tipo, desde a perda auditiva leve até a surdez total. Essa deficiência pode ter causas diversas,
+      como fatores genéticos, doenças, lesões ou exposição prolongada a ruídos intensos. Ela impacta a comunicação, o 
+      aprendizado e a interação social do indivíduo, sendo fundamental o reconhecimento da importância da inclusão e
+      acessibilidade para pessoas com deficiência auditiva.</p>
+
+      <h3>Solução</h3>
+      <p>"Ecos do Fim" é uma solução na forma de um jogo de tabuleiro cooperativo, com ambientação pós-apocalíptica, 
+      que utiliza tecnologia embarcada (Arduino, sensores e RFID) para tornar a Libras (Língua Brasileira de Sinais) uma 
+      ferramenta essencial e natural de comunicação no jogo.</p>
+
+      <p>A dinâmica combina estratégia, narrativa e acessibilidade, promovendo um espaço inclusivo em que todos os jogadores
+      precisam colaborar em silêncio durante parte da partida, usando Libras ou símbolos visuais para vencer.</p>
+    </article>
+  </main>
+  <footer>© 2025 Júlio Gusmão Samico</footer>
+  <script>
+    function alternarTema() {
+      document.body.classList.toggle('escuro');
+    }
+  </script>
+</body>
+</html>
