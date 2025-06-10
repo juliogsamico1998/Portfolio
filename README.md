@@ -15,6 +15,8 @@ Este site demonstra:
 
 ## 📁 Estrutura de Arquivos
 
+*Tem que baixar todos, exceto o README.md
+
 ```
 meu-primeiro-site/
 ├── index.html         # Página inicial
