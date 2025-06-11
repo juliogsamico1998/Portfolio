@@ -33,8 +33,8 @@ meu-primeiro-site/
 ## 🚀 Como rodar localmente
 
 ```bash
-git clone https://github.com/juliogsamico1998/meu-primeiro-site.git
-cd meu-primeiro-site
+git clone https://github.com/juliogsamico1998/Portfolio.git
+cd Portfolio
 # Abra o arquivo index.html no navegador (duplo clique ou com extensão Live Server)
 ```
 
