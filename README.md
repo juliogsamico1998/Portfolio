@@ -17,7 +17,7 @@ Este site demonstra:
 
 
 ```
-meu-primeiro-site/
+Portfolio/
 ├── index.html         # Página inicial
 ├── julio.html         # Sobre o editor
 ├── projeto.html       # Página do projeto
